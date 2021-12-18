@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--link javascript file-->
+<script src="js_personal_calculator.js"></script>
+
+<!--link css file-->
+<link rel="stylesheet" href="js_personal_calculator.css">
+
+<title>pocket JavaScript calculator</title>
+<body>
+    <h2>personal pocket calculator powered by javascript</h2>
+
+    <div class="block">
+        <label for="value_1">Value 1:</label>
+        <input type="number" id="value_1">
+    </div>
+
+    <div class="block">
+        <label for="value_2">Value 2:</label>
+        <input type="number" id="value_2">
+    </div>
+
+    <div>
+        <!--add radio buttons to select operation-->
+        <input type="radio" name="operation" value="addition" id="addition">
+        <label for="addition"> + </label>
+        <br>
+        <input type="radio" name="operation" value="subtraction" id="subtraction">
+        <label for="subtraction"> - </label>
+        <br>
+        <input type="radio" name="operation" value="multiplication" id="multiplication">
+        <label for="multiplication"> x </label>
+        <br>
+        <input type="radio" name="operation" value="division" id="division">
+        <label for="division"> ÷ </label>
+    </div>
+
+    <div class="block">
+        <label for="here">result: </label>
+        <p id="here"></p>
+    </div>
+
+</body>
+</html>
